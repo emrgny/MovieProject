@@ -1,0 +1,64 @@
+/* Genel stil */
+.admin-sidebar {
+  position: fixed;
+  top: 60px; /* Navbar'ın altında başlatır */
+  left: 0;
+  width: 250px;
+  height: calc(100vh - 60px);
+  background: #f8f9fa; /* Açık gri tonunda arka plan */
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 500;
+  overflow-y: auto; /* Uzun içerikler için kaydırma */
+  transform: translateX(-100%); /* Başlangıçta gizli */
+  transition: transform 0.3s ease; /* Animasyon */
+}
+
+.admin-sidebar.open {
+  transform: translateX(0); /* Açıldığında görünür */
+}
+
+.admin-sidebar .sidebar-header {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.admin-sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.admin-sidebar li {
+  margin-bottom: 15px;
+}
+
+.admin-sidebar a {
+  text-decoration: none;
+  color: #343a40;
+  font-size: 0.9rem;
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.admin-sidebar a:hover {
+  background: #e9ecef;
+  color: #007bff;
+}
+
+/* Sidebar toggle butonu */
+.sidebar-toggle {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 1001; /* Sidebar'dan üstte olmalı */
+  transition: color 0.3s ease;
+}
+
+.sidebar-toggle:hover {
+  color: #007bff;
+}

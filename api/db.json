@@ -1,0 +1,37 @@
+{
+  "Movies": [
+    {
+      "image": "/esaretinBedeli.jpg",
+      "title": "esaretim bedeli",
+      "description": "Esaretin Bedeli ilmi, haksız yere hapis cezasına çarptırılan bir bankerin ve hapisteki arkadaşlarıyla birlikte özgürlüğünü ve umudunu yeniden kazanma mücadelesini anlatan etkileyici bir dramadır.",
+      "time": 142
+    },
+    {
+      "image": "/esaretinBedeli.jpg",
+      "title": "esaretim bedeli",
+      "description": "Esaretin Bedeli ilmi, haksız yere hapis cezasına çarptırılan bir bankerin ve hapisteki arkadaşlarıyla birlikte özgürlüğünü ve umudunu yeniden kazanma mücadelesini anlatan etkileyici bir dramadır.",
+      "time": 142
+    },
+    {
+      "image": "/esaretinBedeli.jpg",
+      "title": "esaretim bedeli",
+      "description": "Esaretin Bedeli ilmi, haksız yere hapis cezasına çarptırılan bir bankerin ve hapisteki arkadaşlarıyla birlikte özgürlüğünü ve umudunu yeniden kazanma mücadelesini anlatan etkileyici bir dramadır.",
+      "time": 142
+    },
+    {
+      "image": "/esaretinBedeli.jpg",
+      "title": "esaretim bedeli",
+      "description": "Esaretin Bedeli ilmi, haksız yere hapis cezasına çarptırılan bir bankerin ve hapisteki arkadaşlarıyla birlikte özgürlüğünü ve umudunu yeniden kazanma mücadelesini anlatan etkileyici bir dramadır.",
+      "time": 142
+    }
+  ],
+
+  "Admins": [
+    {
+      "email": "emregunnney@gmail.com",
+      "password": "Alkali123"
+    }
+  ],
+  "Users": [],
+  "Category": []
+}

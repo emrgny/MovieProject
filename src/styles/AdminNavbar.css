@@ -1,0 +1,40 @@
+/* Navbar stili */
+.admin-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #007bff; /* Mavi arka plan */
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Sidebar'ın üstünde olmalı */
+}
+
+.admin-navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.admin-navbar .nav-items {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.admin-navbar .nav-item {
+  margin-left: 20px;
+}
+
+.admin-navbar .nav-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.admin-navbar .nav-item a:hover {
+  text-decoration: underline;
+}
