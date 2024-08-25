@@ -8,7 +8,7 @@
     },
     {
       "image": "/esaretinBedeli.jpg",
-      "title": "esaretim bedeli",
+      "title": "unholy ",
       "description": "Esaretin Bedeli ilmi, haksız yere hapis cezasına çarptırılan bir bankerin ve hapisteki arkadaşlarıyla birlikte özgürlüğünü ve umudunu yeniden kazanma mücadelesini anlatan etkileyici bir dramadır.",
       "time": 142
     },
@@ -25,13 +25,32 @@
       "time": 142
     }
   ],
-
   "Admins": [
     {
       "email": "emregunnney@gmail.com",
       "password": "Alkali123"
     }
   ],
-  "Users": [],
+  "Users": [
+    {
+      "email": "guneye826@gmail.com",
+      "password": "Alkali123"
+    },
+    {
+      "id": "4909",
+      "email": "guneye10142@gmail.com",
+      "password": "E3g3g2gte"
+    },
+    {
+      "id": "7eb5",
+      "email": "furkanusta@gmail.com",
+      "password": "Furkan31"
+    },
+    {
+      "id": "5a6f",
+      "email": "hakan@gmaik",
+      "password": "affsfaE2"
+    }
+  ],
   "Category": []
 }

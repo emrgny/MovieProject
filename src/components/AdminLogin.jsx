@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useFormik } from "formik";
 import "../styles/AdminLogin.css";
-import { basicSchema } from "../schemas";
+import { AdminLoginSchema } from "../schemas";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
@@ -18,7 +18,7 @@ function AdminLogin() {
     );
 
     if (matchedAdmin) {
-      navigate("/Admin");
+      navigate("/AdminHome");
     } else {
       setErrorMessage("Girilen bilgiler yanlış");
     }
@@ -28,7 +28,7 @@ function AdminLogin() {
       email: "",
       password: "",
     },
-    validationSchema: basicSchema,
+    validationSchema: AdminLoginSchema,
     onSubmit,
   });
 
